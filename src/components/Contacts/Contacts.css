@@ -1,0 +1,161 @@
+/* Contacts.css */
+
+/* Import a futuristic/sci-fi font from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+/* Use a dark background color and a gradient border */
+.contacts-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 150px auto 0;
+    padding: 20px;
+    background-color: #222;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgb(205, 7, 195), rgb(189, 11, 103), rgb(233, 10, 140), rgb(189, 11, 103), rgb(195, 0, 107), rgb(171, 2, 163)) 1;
+    font-family: "Orbitron", sans-serif;
+    color: white;
+  }
+  
+
+/* Use a neon effect for the heading */
+.contacts-page h1 {
+ text-align: center;
+ font-size: 3rem;
+ text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(255, 0, 162),
+ 0 0 70px rgb(255, 0, 149), 0 0 80px rgb(255, 0, 149), 0 0 100px rgb(255, 0, 149), 0 0 150px rgb(255, 0, 149)
+}
+
+/* Use a grid layout for the form groups */
+.form-group {
+ display: grid;
+ grid-template-columns: auto 1fr;
+ grid-gap: 10px;
+ align-items: center;
+ margin-bottom: 10px;
+}
+
+/* Use a label animation for the form inputs */
+.form-input {
+ width: 100%;
+ padding: 10px;
+ border: none;
+ outline: none;
+ background-color: transparent;
+ border-bottom: 2px solid white;
+ color: white;
+ transition: all 0.3s ease-in-out;
+}
+
+.form-input:focus {
+ border-bottom-color: cyan;
+}
+
+.form-input:focus + label,
+.form-input:not(:placeholder-shown) + label {
+ transform: translateY(-25px);
+ font-size: 0.8rem;
+ color: cyan;
+}
+
+label {
+ position: absolute;
+ left: 10px;
+ bottom: -2px;
+ pointer-events: none;
+ transition: all 0.3s ease-in-out;
+}
+
+/* Use a glowing effect for the form textarea */
+.form-textarea {
+ width: 100%;
+ height: 100px;
+ padding: 10px;
+ border-radius: 10px;
+ border: none;
+ outline: none;
+ resize: none;
+ background-color: transparent;
+ box-shadow: inset 0 -2px white, inset -2px -2px white, inset -2px -2px white,
+ inset -2px -2px white, inset -2px -2px white, inset -2px -2px white,
+ inset -2px -2px white, inset -2px -2px white, inset -2px -2px white,
+ inset -2px -2px white, inset -2px -2px white, inset -2px -2px white,
+ inset -2px -2px white, inset -2px -2px white, inset -2px -2px white,
+ inset -2px -2px white, inset -4.5em cyan, inset -4.5em cyan,
+ inset -4.5em cyan, inset -4.5em cyan, inset -4.5em cyan,
+ inset -4.5em cyan, inset -4.5em cyan, inset -4.5em cyan,
+ inset -4.5em cyan, inset -4.5em cyan, inset -4.5em cyan,
+ inset -4.5em cyan, inset -4.5em cyan, inset -4.5em cyan,
+ inset -4.5em cyan;
+
+ color: white;
+
+ transition-duration: inherit;
+
+ transition-property:
+ box-shadow,
+ background-color,
+ color;
+
+ transition-timing-function:
+ cubic-bezier(1,-1.12,.18,.94);
+}
+
+.form-textarea:focus {
+ box-shadow:
+ inset .25em .25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset -.25em -.25em .25em rgba(255,255,255,.075),
+ inset 0 0 0 white,
+ inset 0 0 0 white,
+ inset 0 0 0 white,
+ inset 0 0 0 white,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan,
+ inset -4.5em cyan;
+
+ background-color: #222;
+ color: white;
+}
+
+/* Use a pulsing effect for the form button */
+.form-button {
+ width: 100%;
+ padding: 10px;
+ border: none;
+ outline: none;
+ border-radius: 10px;
+ background-color: #222;
+ color: white;
+ font-size: 1.2rem;
+ cursor: pointer;
+ box-shadow: 0 0 20px rgb(255, 0, 166), 0 0 30px rgb(255, 0, 166), 0 0 40px rgb(255, 0, 166), 0 0 50px rgb(255, 0, 166),
+ 0 0 60px rgb(255, 0, 166), 0 0 70px rgb(255, 0, 166), 0 0 80px rgb(255, 0, 166);
+ animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+ from {
+ transform: scale(1);
+ }
+ to {
+ transform: scale(1.1);
+ }
+}
