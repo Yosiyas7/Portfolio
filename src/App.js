@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Contacts from "./components/Contacts/Contacts";
+import Resume from "./components/Resume/Resume";
 
 import {
   BrowserRouter as Router,
@@ -41,6 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/"/>} />
           <Route path="Contacts" element={<Contacts />} />
+          <Route path="Resume" element={<Resume />} />
         </Routes>
         <Footer />
       </div>
