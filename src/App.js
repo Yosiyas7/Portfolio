@@ -5,8 +5,11 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
+<<<<<<< HEAD
 import Contacts from "./components/Contacts/Contacts";
 
+=======
+>>>>>>> 8c515ec9b4652f54c976b968c6b5aa4620fbdaee
 
 import {
   BrowserRouter as Router,
@@ -41,7 +44,10 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/"/>} />
+<<<<<<< HEAD
           <Route path="/contacts" element={<Contacts />} />
+=======
+>>>>>>> 8c515ec9b4652f54c976b968c6b5aa4620fbdaee
         </Routes>
         <Footer />
       </div>
