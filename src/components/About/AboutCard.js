@@ -29,7 +29,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "I'm Batman"{" "}
+            "I'm HIM"{" "}
           </p>
           <footer className="blockquote-footer">Yosiyas</footer>
         </blockquote>

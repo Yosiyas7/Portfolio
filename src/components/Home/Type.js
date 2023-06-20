@@ -2,7 +2,7 @@ import React from "react";
 
 import Typewriter from "typewriter-effect"; 
 
-function Type() {  // Defining a function component called Type
+function Type() { 
   return (
     <Typewriter
       options={{  // Passing an options object to the Typewriter component

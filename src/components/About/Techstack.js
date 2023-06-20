@@ -9,16 +9,12 @@ import {
   DiNodejs,
   DiReact,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
   DiBootstrap,
   DiJqueryLogo
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
-  SiNextdotjs,
   SiSolidity,
   SiPostgresql,
   SiExpress,
