@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import classNames from "classnames";
 import "./Contacts.css";
-import { useForm, ValidationError } from '@formspree/react';
 
 function Contacts() {
   const [name, setName] = useState("");
