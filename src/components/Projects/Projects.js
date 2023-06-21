@@ -26,7 +26,7 @@ function Projects() {
               title="GRODT"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Socket.io. Have features which allows user for realtime messaging, group messaging and more."
               ghLink="https://github.com/Yosiyas7/Project3"
-              demoLink="https://localhost:3000/"
+              demoLink="https://grodtchat.netlify.app/"
             />
           </Col>
 
@@ -37,7 +37,7 @@ function Projects() {
               title="Spotify-Clone"
               description="This is a Spotify Clone that me and a group of friends created. The application is built using React and utilizes React Router for navigation. It integrates with the Spotify API to allow users to authenticate, view their playlists, search for songs, and play them."
               ghLink="https://github.com/Yosiyas7/SpotifyClone"
-              demoLink="https://localhost:3000/"
+              demoLink="https://monumental-youtiao-1bceaf.netlify.app/"
             />
           </Col>
 
