@@ -19,6 +19,73 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pillar}
+              isBlog={false}
+              title="Commercial Real Estate Marketplace"
+              description="This is a website for a company called Pillar who specialises in Direct Marketplace for Institutional Commercial Real Estate"
+              ghLink=""
+              demoLink="https://landingpillar.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecom}
+              isBlog={false}
+              title="Ecommerce Website for a Tech Company"
+              description="fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript."
+              ghLink=""
+              demoLink="https://ecommercewebpro.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rainy}
+              isBlog={false}
+              title="Food Delivery Website"
+              description="fully responsive food delivery website, maximum compatiblities in all mobile devices, (Downloading app doesn't work)"
+              ghLink=""
+              demoLink="https://ecommercewebpro.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={red}
+              isBlog={false}
+              title="Clinic Booking Website"
+              description="Red Stream is a full stack website project based on online blood donation. This is a responsive and userfriendly website for making the process of blood donation easy."
+              ghLink=""
+              demoLink="https://projectredstream.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taaza}
+              isBlog={false}
+              title="Online Restaurant Website"
+              description="Taaza is a full website project. It is a responsive restaurant website which provides online services related to a restaurant"
+              ghLink="h"
+              demoLink="ttps://tazap.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={anon}
+              isBlog={false}
+              title="Anon Women's Ecommerce Store"
+              description="Anon is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript."
+              ghLink=""
+              demoLink="https://ecomwom.netlify.app/"              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={grodt}
@@ -53,71 +120,6 @@ function Projects() {
           </Col>
 
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={teamsheet}
-              isBlog={false}
-              title="Commercial Real Estate Marketplace"
-              description="This is a website for a company called Pillar who specialises in Direct Marketplace for Institutional Commercial Real Estate"
-              ghLink="https://landingpillar.netlify.app/"
-              demoLink="https://localhost:3000/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={teamsheet}
-              isBlog={false}
-              title="Ecommerce Website for a Tech Company"
-              description="fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript."
-              ghLink="https://ecommercewebpro.netlify.app/"
-              demoLink="https://localhost:3000/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={teamsheet}
-              isBlog={false}
-              title="Food Delivery Website"
-              description="fully responsive food delivery website, maximum compatiblities in all mobile devices, (Downloading app doesn't work)"
-              ghLink="https://ecommercewebpro.netlify.app/"
-              demoLink="https://localhost:3000/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={teamsheet}
-              isBlog={false}
-              title="Clinic Booking Website"
-              description="Red Stream is a full stack website project based on online blood donation. This is a responsive and userfriendly website for making the process of blood donation easy."
-              ghLink="https://projectredstream.netlify.app/"
-              demoLink="https://localhost:3000/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={teamsheet}
-              isBlog={false}
-              title="Online Restaurant Website"
-              description="Taaza is a full website project. It is a responsive restaurant website which provides online services related to a restaurant"
-              ghLink="https://tazap.netlify.app/"
-              demoLink="https://localhost:3000/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={teamsheet}
-              isBlog={false}
-              title="Anon Women's Ecommerce Store"
-              description="Anon is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript."
-              ghLink="https://ecomwom.netlify.app/"
-              demoLink="https://localhost:3000/"              
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
