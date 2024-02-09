@@ -8,8 +8,10 @@ function Type() {
       options={{  // Passing an options object to the Typewriter component
         strings: [  // An array of strings to be displayed by the Typewriter
           "Software Developer",
-          "Junior Software Engineer",
+          "Freelancer",
+          "Software Engineer",
           "Full Stack Developer",
+          "CRM DeveloperDeveloper",
           "The Batman",
         ],
         autoStart: true,  // Automatically starts the typewriter effect
