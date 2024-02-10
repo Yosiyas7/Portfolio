@@ -56,7 +56,7 @@ function Projects() {
               title="Food Delivery Website"
               description="fully responsive food delivery website, maximum compatiblities in all mobile devices, (Downloading app doesn't work)"
               ghLink="https://github.com/Yosiyas7/RainyRoof_Restaurant_Website/blob/main/README.md"
-              demoLink="https://ecommercewebpro.netlify.app/"              
+              demoLink="https://rroof.netlify.app/"              
             />
           </Col>
 
@@ -78,7 +78,7 @@ function Projects() {
               title="Online Restaurant Website"
               description="Taaza is a full website project. It is a responsive restaurant website which provides online services related to a restaurant"
               ghLink="https://github.com/Yosiyas7/Project-Taaza/blob/main/README.md"
-              demoLink="ttps://tazap.netlify.app/"              
+              demoLink="https://tazap.netlify.app/"              
             />
           </Col>
 
