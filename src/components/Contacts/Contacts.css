@@ -84,7 +84,7 @@ label {
     color: white;
 }
 
-/* Use a pulsing effect for the form button */
+/* Adjust color and transition properties for the form button */
 .form-button {
     width: 100%;
     padding: 10px;
@@ -95,14 +95,11 @@ label {
     color: white;
     font-size: 1.2rem;
     cursor: pointer;
-    animation: pulse 2s infinite;
+    transition: background-color 0.3s ease;
 }
 
-@keyframes pulse {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+/* Add hover effect to the form button */
+.form-button:hover {
+    transform: translateY(-2px);
+    background-color: #444; /* Adjust hover color as desired */
 }
