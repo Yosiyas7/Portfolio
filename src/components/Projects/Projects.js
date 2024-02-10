@@ -75,10 +75,10 @@ function Projects() {
             <ProjectCard
               imgPath={taaza}
               isBlog={false}
-              title="Online Restaurant Website"
-              description="Taaza is a full website project. It is a responsive restaurant website which provides online services related to a restaurant"
-              ghLink="https://github.com/Yosiyas7/Project-Taaza/blob/main/README.md"
-              demoLink="https://tazap.netlify.app/"              
+              title="Tourism Website"
+              description="Adventure is one of my most complex websites me and a friend created that is used as a passport to explore the world's most exciting destinations and discover amazing events, tours, and hidden gems."
+              ghLink="https://github.com/Yosiyas7/tourism-website/blob/main/README.md"
+              demoLink="https://advenre.netlify.app/"              
             />
           </Col>
 
