@@ -16,19 +16,19 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> The Star Entertainment Group
+            <span className="purple"> <ImPointRight /></span> The Star Entertainment Group
             </li>
             <li className="about-activity">
-              <ImPointRight /> Emerald Cardiac
+            <span className="purple"> <ImPointRight /></span> Emerald Cardiac
             </li>
             <li className="about-activity">
-              <ImPointRight /> Vocal Media
+              <span className="purple"> <ImPointRight /></span> Vocal Media
             </li>
             <li className="about-activity">
-              <ImPointRight /> Ecommerce Brands
+              <span className="purple"> <ImPointRight /></span> Ecommerce Brands
             </li>
             <li className="about-activity">
-              <ImPointRight /> Commercial Real Estate
+              <span className="purple"> <ImPointRight /></span> Commercial Real Estate
             </li>
           </ul>
 
