@@ -8,8 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I am a <span className="purple"> Sydney-based CRM Developer</span>
-            <br /> with a knack for modern solutions, a passion for innovation and a focus on the latest tech trends. I craft streamlined <span className="purple">CRM solutions </span> that propel businesses forward in today's digital world. Let's <span className="purple">connect </span> and explore how we can elevate your <span className="purple">customer relationships </span> together.
+            I am a <span className="purple"> Sydney-based CRM Developer</span> with a knack for modern solutions, a passion for innovation and a focus on the latest tech trends. I craft streamlined <span className="purple">CRM solutions </span> that propel businesses forward in today's digital world. Let's <span className="purple">connect </span> and explore how we can elevate your <span className="purple">customer relationships </span> together.
             <br />
             <br />
             <br />
