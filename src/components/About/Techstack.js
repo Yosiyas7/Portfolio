@@ -7,16 +7,10 @@ import {
   DiRuby,
   DiNodejs,
   DiReact,
-  DiMongodb,
-  DiGit,
-  DiBootstrap,
-  DiJqueryLogo
+  DiMongodb
 } from "react-icons/di";
 import {
-  SiFirebase,
   SiSolidity,
-  SiPostgresql,
-  SiExpress,
   SiAngular,
 } from "react-icons/si";
 import {
@@ -56,24 +50,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAngular />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJqueryLogo />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
       </Col>
     </Row>
   );

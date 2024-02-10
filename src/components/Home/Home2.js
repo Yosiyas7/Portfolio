@@ -19,11 +19,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Yosiyas Debessay: Web developer by day, Batman by night
+            Yosiyas Debessay: CRM Developer by day, Freelancer by night
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> HTML, CSS, Javascript, React, Node, Ruby and many more. </b>
+                <b className="purple"> HTML, CSS, Javascript, React, Node, C#, Ruby and many more. </b>
               </i>
               <br />
               <br />

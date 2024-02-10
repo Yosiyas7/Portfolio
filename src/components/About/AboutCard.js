@@ -8,28 +8,34 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Yosiyas Debessay </span>
-            from <span className="purple"> Sydney, Australia.</span>
-            <br /> I'm a software engineering enthusiast who recently completed an immersive course at General Assembly, honing my skills and diving into the world of cutting-edge technologies.
+            I am <span className="purple">Yosiyas Debessay </span>
+            a <span className="purple"> Sydney-based CRM Developer.</span>
+            <br /> with a knack for modern solutions. With a passion for innovation and a focus on the latest tech trends, I craft streamlined <span className="purple">CRM solutions </span> that propel businesses forward in today's digital world. Let's <span className="purple">connect </span> and explore how we can elevate your <span className="purple">customer relationships </span> together.
             <br />
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Cutting edge companies and brands I've had the privilege to develop for
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> The Star Entertainment Group
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Tech Blogs
+              <ImPointRight /> Emerald Cardiac
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Soccer
+              <ImPointRight /> Vocal Media
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Ecommerce Brands
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Commercial Real Estate
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "I'm HIM"{" "}
+            "And Many More"{" "}
           </p>
           <footer className="blockquote-footer">Yosiyas</footer>
         </blockquote>

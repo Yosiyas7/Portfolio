@@ -6,7 +6,6 @@ import {
   SiSlack,
   SiGithub,
   SiMacos,
-  SiGooglefonts
 } from "react-icons/si";
 
 function Toolstack() {
@@ -27,9 +26,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGooglefonts />
-      </Col>
+
     </Row>
   );
 }
