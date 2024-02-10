@@ -10,7 +10,7 @@ import ecom from '../../Assets/Projects/ecom.png';
 import rainy from '../../Assets/Projects/rainy.png';
 import red from '../../Assets/Projects/red.png';
 import taaza from '../../Assets/Projects/taaza.png';
-import anon from '../../Assets/Projects/anon.png';
+import anon from '../../Assets/Projects/Anon.png';
 
 
 
