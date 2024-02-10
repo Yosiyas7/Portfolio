@@ -95,11 +95,11 @@ label {
     color: white;
     font-size: 1.2rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 /* Add hover effect to the form button */
 .form-button:hover {
     transform: translateY(-2px);
-    background-color: #444; /* Adjust hover color as desired */
+    background-color: #222; /* Maintain original button color */
 }
