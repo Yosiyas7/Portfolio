@@ -5,6 +5,13 @@ import Particle from "../Particle";
 import grodt from "../../Assets/Projects/grodt.png";
 import spotify from "../../Assets/Projects/spotify.png";
 import teamsheet from "../../Assets/Projects/teamsheet.png";
+import pillar from '../../Assets/Projects/pillar.png';
+import ecom from '../../Assets/Projects/ecom.png';
+import rainy from '../../Assets/Projects/rainy.png';
+import red from '../../Assets/Projects/red.png';
+import taaza from '../../Assets/Projects/taaza.png';
+import anon from '../../Assets/Projects/anon.png';
+
 
 
 function Projects() {
